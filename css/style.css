@@ -1,0 +1,145 @@
+.conteiner {
+    width: min(100%,1440px);
+    margin: auto;
+    position: relative;
+    padding-top: 129px;
+}
+header {
+    background-color: #372D23;
+    display: flex;
+    padding: 32px 80px;
+    justify-content: space-between;
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 1;
+
+    
+}
+.header_ul {
+    display: flex;
+    column-gap: 48px;
+}
+.header_ul_item {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+.active {
+    color: #ED6C30;
+}
+
+.inactive {
+    color: #FCC21B;
+}
+
+.section1 {
+    position: relative;
+    height: 640px;
+    
+    
+}
+.main_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.article1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    display: flex;
+    position: absolute;
+    width: 762px;
+    height: 208px;
+    top: 216px;
+    left: 339px;
+    border-radius: 10px;
+    border-width: 3px;
+    border: solid white;
+    background-color: #FCC21B;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+
+}
+.section2 {
+    display: flex;
+    width: 1440px;
+    height: 600px;
+    top: 776px;
+    padding: 96px 80px;
+    background-color: #FFE18A;
+    column-gap: 40px;
+
+}
+h2 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+}
+.image_section2{
+    width: 620px;
+    height: 400px;
+}
+footer {
+    display: flex;
+    padding: 32px 80px;
+    justify-content: space-between;
+    background-color: #372D23;
+}
+.footer_ul {
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+}
+ .icons_li {
+    display: flex;
+    flex-direction: row;
+    row-gap: 24px;    
+} 
+.a {
+    color: #FCC21B;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    left: 56px;
+    /* display: flex;
+    flex-direction: row; es ar vici ratoa cloumnad rowebad maq monishnuli .icons_li shi
+    row-gap: 24px;   */
+}
+.icon :hover {
+    background-color: crimson;
+}
+.a :hover {
+    background-color: crimson;
+}
